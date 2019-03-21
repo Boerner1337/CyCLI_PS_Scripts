@@ -3,8 +3,8 @@ Script to migrate the Global Blacklist
 from one tenant to another. 
 #>
 
-$Source = Get-CyAPI EMEASE -Scope None
-$Dest = Get-CyAPI MASTERS -Scope None
+$Source = Get-CyAPI SourceAPIName -Scope None
+$Dest = Get-CyAPI DestAPIName -Scope None
 
 
 <#
